@@ -1,8 +1,8 @@
 <?php
-    $host = 'remotemysql.com';
-    $db   = 'M3pjBwIt7j';
-    $user = 'M3pjBwIt7j';
-    $pass = 'WgU19JDc3D'; 
+    // $host = 'localhost';
+    // $db   = 'director-schedule';
+    // $user = 'root';
+    // $pass = ''; 
     // $charset = 'utf8mb4';
 
     // $conn  = "mysql:host=$host;dbname=$db;charset=$charset";
@@ -14,6 +14,12 @@
     // } catch(PDOException $e){
     //     throw new PDOException($e->getMessage());
     // }
+
+         //Remote database Connection
+         $host = 'remotemysql.com';
+         $db   = 'M3pjBwIt7j';
+         $user = 'M3pjBwIt7j';
+         $pass = 'WgU19JDc3D';
 
 	$connection = mysqli_connect($host, $user, $pass);
     $db = mysqli_select_db($connection, $db);
