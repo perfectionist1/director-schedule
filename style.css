@@ -1,0 +1,93 @@
+/*
+@ Md. Mostafizur Rahman
+@ Bangladesh Medical Research Council
+
+*/
+
+button.add-schedule {
+	/*margin-left: 880px;*/
+	display: inline;
+	position: relative;
+	/*top: -39px;*/
+	right: 0;
+}
+button.schedule-signout {
+	position: relative;
+	bottom: 75%;
+	left: 2%;
+}
+.providing-data-heading h2 {
+	/* text-align: right; */
+	display: inline;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #6657A6;
+	text-shadow: 1px 2px 1px #000;
+	font-weight: 700;
+	font-size: 3.2vw;
+	position: relative;
+	left: 31%;
+	top: 32%;
+}
+
+button.backtohomebutton{	
+	margin: 50px;
+}
+/*.cell{
+	display: table-cell;
+    vertical-align: middle;
+}*/
+
+button.pre-schedule{
+	position: relative;
+	
+	display: inline;
+}
+button.previous-page-btn-hide{
+	visibility: hidden;
+}
+
+.for-buttons{
+	max-height: 78px;
+}
+
+#tbl tr:nth-child(2n+2){
+	background-color: #FFFF94;
+	color: green;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.btn-responsive{
+	white-space: normal !important;
+	    word-wrap: break-word;
+}
+
+
+@media screen and (max-width: 600px) {
+  	.providing-data-heading h2 {
+		font-size: 6vw;
+		position: relative;
+		top: 50%;
+		left: 27%;
+	}
+
+	button.schedule-signout {
+		position: relative;
+		bottom: 75%;
+		left: 2%;
+	}
+}
+
+
+/*
+////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////// */		
+			
+	/*=-scheduler Footer-=*/
+	.scheduler_footer {
+		background-color: #111;
+		padding: 12px 0;
+		font-size:14px;
+	}
